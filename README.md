@@ -1,6 +1,6 @@
 # synthetic-lethality-pipeline
 
-This repository contains a computational pipeline to predict synthetic lethal (SL) gene pairs in human using single-cell RNA sequencing data
+This repository contains a computational pipeline to predict synthetic lethal (SL) gene pairs in humans using single-cell RNA sequencing data
 
 ---
 
