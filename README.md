@@ -73,6 +73,6 @@ This pipeline was developed as part of a Master's thesis at the Indian Institute
 **Author:** Anugreha Mohan  
 **Supervisors:** Dr. Sanu Shameer and Dr. Kamalakannan Vijayan
 
-Before running the pipeline, please update the g variables in the script to match your local file structure.
+-- Before running the pipeline, please update the variables in the script to match your local file structure.
 
 
