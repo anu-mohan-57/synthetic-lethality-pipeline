@@ -40,8 +40,15 @@ The pipeline runs in five stages:
 
 ## Repository Contents
 
-- `matrix_generation_SL.ipynb` — full pipeline: binary thresholding, co-absence matrix construction, druggability filtering, network proximity filtering, and novelty filtering
+- `matrix_generation_SL.ipynb` — full pipeline: binary thresholding, co-absence matrix construction 
 - `hepatocyte.csv` — predicted SL candidate pairs for hepatocyte cell type
+- `TS_pipeline.ipynb` - Tabula Sapiens–based preprocessing and preparation of scRNA-seq expression matrices.
+
+- `HPA_pipeline.ipynb` - Processing and integration of Human Protein Atlas transcript expression data across 81 cell types.
+
+- `druggable_genes.ipynb` - Identification and curation of druggable genes from DGIdb for downstream filtering.
+
+- `GRN.ipynb` - Gene regulatory / interaction network construction and processing used for proximity-based filtering of candidate SL pairs.
 
 ---
 
@@ -65,3 +72,7 @@ This pipeline was developed as part of a Master's thesis at the Indian Institute
 **Title:** Computational Prediction of Cell Type-Specific Synthetic Lethality in Human Cancers  
 **Author:** Anugreha Mohan  
 **Supervisors:** Dr. Sanu Shameer and Dr. Kamalakannan Vijayan
+
+Before running the pipeline, please update the g variables in the script to match your local file structure.
+
+
